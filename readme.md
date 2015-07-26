@@ -1,1 +1,1 @@
-Convert the temperature from Celsius to Fahernheit or vice versa
+Convert the temperature from Celsius to Fahernheit or vice versa.
