@@ -5,12 +5,15 @@ var celciusFahrenheit = prompt("Do you want to convert that to Celsius or Fahren
 
 // If the user entered Fahrenheit
 if (celciusFahrenheit === "Fahrenheit") {
-  temp = (5/9) * (temp - 32);
-  alert("The temperature is " + temp);
+
+  returnTemp = ((5/9) * (temp - 32)).toFixed(1);
+  alert("The temperature is " + returnTemp);
 }
 
 // If the user entered Celsius
 else {
-  temp = (9/5) * (temp + 32);
-  alert ("The temperature is " + temp);
+  returnTemp = ((temp * (9/5) + 32)).toFixed(1);
+  alert ("The temperature is " + returnTemp);
 }
+
+// temp * (9/5) + 32;
